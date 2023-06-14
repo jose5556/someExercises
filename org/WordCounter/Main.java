@@ -25,5 +25,8 @@ public class Main {
         //PrimeNumber
         //System.out.println(PrimeNumber.isPrime(20));
 
+        //noVowels
+        System.out.println(NoVowels.disemvowel("No offense but,\\nYour writing is among the worst I've ever read"));
+
     }
 }
