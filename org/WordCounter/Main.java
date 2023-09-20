@@ -26,7 +26,13 @@ public class Main {
         //System.out.println(PrimeNumber.isPrime(20));
 
         //noVowels
-        System.out.println(NoVowels.disemvowel("No offense but,\\nYour writing is among the worst I've ever read"));
+        //System.out.println(NoVowels.disemvowel("No offense but,\\nYour writing is among the worst I've ever read"));
+
+        //CharRemoval
+        //CharRemoval charRemoval = new CharRemoval();
+        //System.out.println(charRemoval.removeChar("1macaco gosta de banana2"));
+
+
 
     }
 }

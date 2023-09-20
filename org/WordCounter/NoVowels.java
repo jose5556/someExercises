@@ -16,5 +16,5 @@ public class NoVowels {
 
 
 /* a frase "No offense but,\nYour writing is among the worst I've ever read"
-resiste e printa vogais, explorar o stringBuilder
+resistes and prints vowels, explore more stringBuilder
  */

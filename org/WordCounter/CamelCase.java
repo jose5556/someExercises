@@ -9,8 +9,8 @@ public class CamelCase {
         StringBuilder stringBuilder = new StringBuilder();
 
         String[] words = s.split("-");
-
-        if (words == null || words.equals("")) {
+        
+        if (words == null || words.length == 0) {
             return null;
         }
 
