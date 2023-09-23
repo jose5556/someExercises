@@ -32,7 +32,8 @@ public class Main {
         //CharRemoval charRemoval = new CharRemoval();
         //System.out.println(charRemoval.removeChar("1macaco gosta de banana2"));
 
-
-
+        //FindOdd
+        FindOdd findOdd = new FindOdd();
+        System.out.println(FindOdd.findIt(new int[]{1,2,3,2,1,3,4}));
     }
 }

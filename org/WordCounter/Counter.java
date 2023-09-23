@@ -17,13 +17,13 @@ public class Counter {
 
         for(String word : words.split(" ")) {
 
-            mapa.put(word, mapa.containsKey(word) ? mapa.get(word) + 1 : 1);
-            /*if (mapa.containsKey(word)) {
+            //mapa.put(word, mapa.containsKey(word) ? mapa.get(word) + 1 : 1);
+            if (mapa.containsKey(word)) {
                 int count = mapa.get(word);
                 mapa.put(word, count + 1);
             } else {
                 mapa.put(word, 1);
-            }*/
+            }
         }
         return mapa;
     }
