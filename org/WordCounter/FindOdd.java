@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class FindOdd {
     public static int findIt(int[] a) {
-
+        int correctValue = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int numInteger : a) {
@@ -17,10 +17,13 @@ public class FindOdd {
         for (int key : map.keySet()) {
 
             if (map.get(key) % 2 != 0) {
-                return key;
+                correctValue = key;
+                return correctValue;
             }
         }
-        return 1;
+
+
+        return correctValue;
     }
 }
 
