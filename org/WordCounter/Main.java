@@ -1,5 +1,6 @@
 package org.WordCounter;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Main {
@@ -33,7 +34,14 @@ public class Main {
         //System.out.println(charRemoval.removeChar("1macaco gosta de banana2"));
 
         //FindOdd
-        FindOdd findOdd = new FindOdd();
-        System.out.println(FindOdd.findIt(new int[]{1,2,3,2,1,3,4}));
+        //FindOdd findOdd = new FindOdd();
+        //System.out.println(FindOdd.findIt(new int[]{1,2,3,2,1,3,4}));
+
+        //Xbonacci
+        Xbonacci xbonacci = new Xbonacci();
+        double[] s = {1, 1, 1};
+        int n = 8;
+        double[] result = xbonacci.tribonacci(s, n);
+        System.out.println(Arrays.toString(result));
     }
 }
