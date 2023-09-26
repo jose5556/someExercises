@@ -45,10 +45,14 @@ public class Main {
         System.out.println(Arrays.toString(result));*/
 
         //AreSame
-        AreSame areSame = new AreSame();
+        /*AreSame areSame = new AreSame();
         int[] a = new int[]{121, 144, 19, 161, 11};
         int[] b = new int[]{121, 14641, 361, 25921, 20736};
-        System.out.println(AreSame.comp(a, b));
+        System.out.println(AreSame.comp(a, b));*/
 
+        //FindOutlier
+        FindOutlier findOutlier = new FindOutlier();
+        int[] integers = new int[] {1,3,5,7,8};
+        System.out.println(FindOutlier.find(integers));
     }
 }
