@@ -38,10 +38,17 @@ public class Main {
         //System.out.println(FindOdd.findIt(new int[]{1,2,3,2,1,3,4}));
 
         //Xbonacci
-        Xbonacci xbonacci = new Xbonacci();
+        /*Xbonacci xbonacci = new Xbonacci();
         double[] s = {1, 1, 1};
         int n = 8;
         double[] result = xbonacci.tribonacci(s, n);
-        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result));*/
+
+        //AreSame
+        AreSame areSame = new AreSame();
+        int[] a = new int[]{121, 144, 19, 161, 11};
+        int[] b = new int[]{121, 14641, 361, 25921, 20736};
+        System.out.println(AreSame.comp(a, b));
+
     }
 }
