@@ -1,4 +1,4 @@
-package org.WordCounter;
+package org.exercises;
 
 public class NoVowels {
     public static String disemvowel(String str) {

@@ -1,7 +1,4 @@
-package org.WordCounter;
-
-import java.util.Arrays;
-import java.util.HashMap;
+package org.exercises;
 
 public class Main {
     public static void main(String[] args) {

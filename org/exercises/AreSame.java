@@ -1,4 +1,4 @@
-package org.WordCounter;
+package org.exercises;
 import java.util.Arrays;
 
 public class AreSame {

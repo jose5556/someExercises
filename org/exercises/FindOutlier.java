@@ -1,4 +1,4 @@
-package org.WordCounter;
+package org.exercises;
 
 public class FindOutlier {
     static int find(int[] integers) {

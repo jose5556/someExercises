@@ -1,6 +1,5 @@
-package org.WordCounter;
+package org.exercises;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Xbonacci {

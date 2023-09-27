@@ -1,4 +1,4 @@
-package org.WordCounter;
+package org.exercises;
 
 public class PrimeNumber {
     public static boolean isPrime(int num) {

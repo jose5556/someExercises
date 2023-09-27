@@ -1,4 +1,4 @@
-package org.WordCounter;
+package org.exercises;
 
 public class CharRemoval {
     public String removeChar(String str) {

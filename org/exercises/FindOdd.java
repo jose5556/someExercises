@@ -1,8 +1,6 @@
-package org.WordCounter;
+package org.exercises;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 public class FindOdd {
     public static int findIt(int[] a) {
